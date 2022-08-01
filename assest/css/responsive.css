@@ -1,0 +1,390 @@
+/*******************************
+	All Responsive Code
+*******************************/
+
+@media screen and (max-width: 1199px){
+	h1 {
+		font-size: 54px;
+		line-height: 64px;
+	  }
+	  
+	  h2 {
+	   font-size: 38px;
+	   line-height: 48px;
+	  }
+	  
+	  h3 {
+	   font-size: 28px;
+	   line-height: 38px;
+	  }
+	  
+	  h4 {
+	   font-size: 22px;
+	   line-height: 32px;
+	  }
+	  h5{
+	   font-size: 20px;
+	   line-height: 30px; 
+	  }
+	  
+	  p{
+	   font-size: 16px;
+	   line-height: 26px;
+	  }
+	  .roadmap-img-1::after, .roadmap-img-2::after{
+		  left: 104%;
+	  }
+	  .roadmap-img-3::before{
+		  right: 105%;
+	  }
+}
+
+@media screen and (max-width: 991px) {
+	/* :::::::::section padding:::::::::: */
+	.hero-section{
+		padding: 118px 0 60px 0;
+	}
+	.how-it-work-section{
+		padding: 143px 0px 58px 0;
+	}
+	.buy-sell-section{
+		padding: 34px 0 58px 0;
+	}
+	.feature-section{
+		padding: 50px 0 60px 0;
+	}
+	.Roadmap-section{
+		padding: 53px 0px 60px 0;
+	}
+	.video-application-section{
+		padding: 36px 0 70px 0;
+	}
+	.our-team-section{
+		padding: 52px 0 60px 0;
+	}
+	.token-distribution-section{
+		padding: 52px 0 60px 0;
+	}
+	.Blogs-section{
+		padding: 54px 0 60px 0;
+	}
+	.footer-section{
+		padding: 29px 0 60px 0;
+	}
+
+	/* ::::: inner section padding ::::: */
+	.inner-hero-section{
+		padding: 160px 0 57px 0;
+	}
+	.about-inner-hero{
+		padding: 34px 0 30px 0;
+	}
+	.inner-how-work{
+		padding: 25px 0;
+	}
+	.inner-video-section{
+		padding: 27px 0 37px 0;
+	}
+	.inner-token-distribution{
+		padding: 52px 0 30px 0;
+	}
+	.token-inner-section{
+		padding: 25px 0px 59px 0;
+	}
+	.inner-feature-section{
+		padding:50px 0 30px 0;
+	}
+	.feature-inner-buy-sell{
+		padding: 25px 0px 20px 0;
+	}
+	.inner-team-section-2{
+		padding: 23px 0 132px 0;
+	}
+	.inner-faq-section{
+		padding: 55px 0 60px 0;
+	}
+
+	/* :::::::::section padding:::::::::: */
+	.counter-item{
+		margin-bottom: -153px;
+	}
+	.btn-2{
+		margin-left: 0;
+	}
+	h1 {
+		font-size: 38px;
+		line-height: 52px;
+	  }
+	  
+	  h2 {
+	   font-size: 28px;
+	   line-height: 38px;
+	  }
+	  
+	  h3 {
+	   font-size: 20px;
+	   line-height: 30px;
+	  }
+	  
+	  h4 {
+	   font-size: 18px;
+	   line-height: 28px;
+	  }
+	  h3.blog-news-top,
+	  .pb-15,
+	  h5{
+	   font-size: 16px;
+	   line-height: 26px; 
+	  }
+	  
+	  p{
+	   font-size: 13px;
+	   line-height: 23px;
+	  }
+	  .roadmap-img-1::after, .roadmap-img-2::after{
+		  left: 105%;
+	  }
+	  .roadmap-img-3::before{
+		  right: 107%;
+	  }
+	  .counter-content span{
+		  width: 40px;
+	  }
+	  .feature-box{
+		min-height: 286px;
+	  }
+
+	.counter-item{
+		padding: 60px 48px 32px 48px;
+	}
+	.how-work-item .icon-img{
+		margin:  0 auto 6px;
+	}
+	.blog-blue{
+		display: block;
+		padding: 10px 15px;
+	}
+	.blog-details{
+		padding: 35px 29px 32px 30px;
+
+	}
+	.blog-details-list li{
+		display: block;
+		position: unset;
+		padding: 0;
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.blog-content h5{
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.blog-content a,
+	.blog-content .reply{
+		font-size: 12px;
+		line-height: 22px;
+	}
+	.d-flex .btn{
+		padding: 6px 13px;
+		border-radius: 10px;
+	}
+	/*;;;;;; index-2 ;;;;;*/
+	.index-two-header{
+		width: auto;
+	}
+	.index-2-img{
+		position: inherit;
+		width: auto;
+		margin-top: 1.5rem;
+	}
+	.feature-home-2{
+		padding: 8px 4px;
+	}
+	.feature-icon-2 img{
+		max-width: 50%;
+	}
+	.content .d-inline{
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.home-page-img img{
+		max-width: 80%;
+	}
+	.home-page-img{
+	width: 130px;
+	height: 50px;
+	line-height: 50px;
+	}
+ 
+}
+
+
+@media screen and (max-width: 768px) {
+	.roadmap-img-1::after, .roadmap-img-2::after,
+	.roadmap-img-3::before,
+	.padding-right::after{
+		display: none;
+	}
+	.how-work-item .icon-img{
+		width: 20%;
+		padding: 8px 6px;
+	}
+	.padding-left{
+		padding-left: 0;
+	}
+	.how-work-item{
+		padding-top: 0;
+	}
+	.blog-btn{
+		right: 0;
+		bottom: -14px;
+	}
+	.blog-img img{
+		width: 100%;
+	}
+	.video-content{
+		text-align: center;
+	}
+	.content p{
+		font-size: 14px;
+		font-weight: 22px;
+	}
+	.footer-left{
+		text-align: center;
+	}
+	.footer-area{
+		text-align: center;
+	}
+	.footer-bottom{
+		display: block;
+		text-align: center;
+	}
+	.footer-link .footer-text{
+		padding-top: 5px;
+	}
+	.footer-link{
+		margin-top: 5px;
+	}
+	.footer-link .footer-text a{
+		font-size: 14px;
+	}
+	.counter-content{
+		padding-bottom: 28px;
+	}
+.work-line{
+	display: none;
+}
+.btn-2{
+	margin-left: 25px;
+}
+.search-box{
+	margin-top: 28px;
+}
+.inner-team-section{
+	padding-bottom: 100px;
+  }
+  /*;;;;;;; index-2 :;;;;;;;*/
+  .home-page-img {
+    width: 94px;
+    height: 50px;
+    line-height: 46px;
+}
+.home-page-img img{
+	max-width: 70%;
+}
+
+.single-list-2{
+	padding-bottom: 20px;
+}
+/*:::::content padding-bottom::::*/
+.pb-30{
+	padding-bottom: 15px;
+}
+.pb-40{
+	padding-bottom: 20px;
+}
+.pb-100{
+	padding-bottom: 50px;
+}
+.content p{
+	padding-top: 5px;
+}
+
+}
+
+@media screen and (max-width: 575px) {
+
+	.buy-sell-single{
+		margin-top: 8px;
+	}
+	.how-work-item .icon-img{
+		width: 20%;
+		padding: 5px;
+		line-height: 20px;
+		height: auto;
+	}
+	.feature-box{
+		width: 75%;
+		margin: 0px auto 0px;
+		text-align: center;
+	}
+
+	.btn{
+		padding: 10px 20px;
+		font-size: 15px;
+		line-height: 25px;
+	}
+	.btn-area a.b-10 {
+		padding: 10px 20px;
+	}
+
+	.single-token-list{
+		padding: 43px 28px 0px 28px;
+	}
+	.single-coundown-item{
+		margin-top: 28px;
+		font-size: 24px;
+		line-height: 34px;
+	}
+	#range::before, #range::after{
+		font-size: 20px;
+	}
+	.range-content span{
+		font-size: 13px;
+	}
+	.range-slider{
+		margin-top: 28px;
+	}
+	.team-mamber-content{
+		padding: 17px 0 18px 0;
+	}
+	.team-mamber img{
+		height: 180px;
+	}
+
+}
+
+@media screen and (max-width: 435px) {
+	.blog-content a, .blog-content .reply{
+		font-size: 10px;
+		line-height: 20px;
+	}
+	.contact-area{
+		padding: 15px;
+	}
+	.accordion-button::before{
+		right: 3px;
+	}
+
+}
+
+@media screen and (max-width: 396px) {
+	.home-page-img-mt{
+		margin-top: 1.5rem;
+	}
+
+}
+
+/*******************************
+	All Responsive Code end
+*******************************/
